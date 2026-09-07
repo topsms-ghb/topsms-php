@@ -1,0 +1,23 @@
+{
+    "name": "topsms/topsms-php",
+    "description": "Oficiální PHP klient pro TopSMS.cz — česká SMS brána. Odesílání SMS, stav doručení a zůstatek kreditu přes REST API.",
+    "keywords": ["sms", "sms-gateway", "topsms", "czech", "sms-api", "bulk-sms"],
+    "homepage": "https://www.topsms.cz",
+    "license": "MIT",
+    "authors": [
+        { "name": "TopSMS.cz", "email": "info@topsms.cz", "homepage": "https://www.topsms.cz" }
+    ],
+    "support": {
+        "email": "info@topsms.cz",
+        "docs": "https://www.topsms.cz/api-integrace/rest-api"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "TopSms\\": "src/" }
+    },
+    "minimum-stability": "stable"
+}
