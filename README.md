@@ -2,6 +2,8 @@
 
 Oficiální PHP klient pro [TopSMS.cz](https://www.topsms.cz) — českou SMS bránu s přímým routováním přes T-Mobile, O2 a Vodafone.
 
+*English / Deutsch:* official PHP client for the [TopSMS](https://topsms.eu) SMS gateway (EU, prepaid, no monthly fee). Documentation in [English](https://topsms.eu/docs) and [German](https://topsms.eu/de/docs); the API itself is the same.
+
 - Odeslání SMS jedním voláním, stav doručení druhým
 - Zůstatek kreditu přes API
 - Ověření podpisu webhooků
@@ -76,7 +78,7 @@ $event = json_decode($raw, true);
 | 403  | Účet neaktivní, IP mimo whitelist, chybějící scope |
 | 429  | Překročen rate limit |
 
-Kompletní dokumentace: **https://www.topsms.cz/api-integrace/rest-api**
+Kompletní dokumentace: **https://www.topsms.cz/api-integrace/rest-api** · English: **https://topsms.eu/docs** · Deutsch: **https://topsms.eu/de/docs** · OpenAPI: https://topsms.eu/openapi.yaml
 
 ## Licence
 

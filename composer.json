@@ -1,6 +1,6 @@
 {
     "name": "topsms/topsms-php",
-    "description": "Oficiální PHP klient pro TopSMS.cz — česká SMS brána. Odesílání SMS, stav doručení a zůstatek kreditu přes REST API.",
+    "description": "Official PHP client for the TopSMS SMS gateway (topsms.cz / topsms.eu): send SMS, delivery status and credit balance via REST API. Oficiální PHP klient pro TopSMS.cz.",
     "keywords": ["sms", "sms-gateway", "topsms", "czech", "sms-api", "bulk-sms"],
     "homepage": "https://www.topsms.cz",
     "license": "MIT",
