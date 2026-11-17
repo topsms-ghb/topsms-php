@@ -1,11 +1,11 @@
 {
     "name": "topsms/topsms-php",
-    "description": "Official PHP client for the TopSMS SMS gateway (topsms.cz / topsms.eu): send SMS, delivery status and credit balance via REST API. Oficiální PHP klient pro TopSMS.cz.",
-    "keywords": ["sms", "sms-gateway", "topsms", "czech", "sms-api", "bulk-sms"],
+    "description": "PHP client for the TopSMS SMS gateway API (topsms.eu / topsms.cz): send SMS, delivery status, credit balance and webhook signature verification.",
+    "keywords": ["sms", "sms-gateway", "sms-api", "topsms", "bulk-sms", "germany", "austria", "eu", "czech", "slovakia"],
     "homepage": "https://www.topsms.cz",
     "license": "MIT",
     "authors": [
-        { "name": "TopSMS.cz", "email": "info@topsms.cz", "homepage": "https://www.topsms.cz" }
+        { "name": "TopSMS", "email": "info@topsms.cz", "homepage": "https://www.topsms.cz" }
     ],
     "support": {
         "email": "info@topsms.cz",

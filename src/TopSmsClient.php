@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace TopSms;
 
 /**
- * Oficiální PHP klient pro TopSMS.cz REST API.
+ * Oficiální PHP klient pro REST API SMS brány TopSMS (topsms.eu / topsms.cz).
  *
- * Dokumentace: https://www.topsms.cz/api-integrace/rest-api
+ * Dokumentace: https://www.topsms.cz/api-integrace/rest-api (česky), https://topsms.eu/docs (English)
  *
  * ```php
  * $client = new \TopSms\TopSmsClient('CLIENT_ID', 'SECRET');
@@ -77,7 +77,7 @@ class TopSmsClient
     }
 
     /**
-     * Aktuální zůstatek kreditu v Kč a cena za SMS dle tarifu.
+     * Aktuální zůstatek kreditu a cena za SMS v měně účtu (pole currency: CZK nebo EUR).
      *
      * @return array{ok:bool,credit:float,currency:string,smsPrice:float}
      */

@@ -14,10 +14,10 @@ $client = new TopSmsClient(
 
 try {
     $credit = $client->credit();
-    echo "Zůstatek: {$credit['credit']} Kč\n";
+    echo "Zůstatek: {$credit['credit']} {$credit['currency']}\n";
 
     $result = $client->send('+420601234567', 'Testovaci zprava z topsms-php.');
-    echo "Odesláno: {$result['id']} ({$result['smsCount']} segment, {$result['price']} Kč)\n";
+    echo "Odesláno: {$result['id']} ({$result['smsCount']} segment, {$result['price']} {$result['currency']})\n";
 
     sleep(5);
     $status = $client->status($result['id']);
